@@ -1,0 +1,20 @@
+# 本机配置（路径因机器而异，由 install.ps1 生成）
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 生成物
+*.docx
+*.pdf
+work/
+out/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
