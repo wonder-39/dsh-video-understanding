@@ -95,4 +95,3 @@ dsh-video-understanding/
 
 MIT。参考并依赖 video-watch-plus（https://github.com/xinhailaopo/video-watch-plus）（MIT，© CFITSec 上游），该包不在本仓库内分发，由安装脚本从上游获取。
 
-声明：由于是我第一次在github发项目，如有不规范请指正并见谅。
