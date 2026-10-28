@@ -1,0 +1,28 @@
+# NOTICE
+
+本项目（dsh-video-understanding）采用 MIT 许可证，见 [LICENSE](LICENSE)。
+
+## 依赖与参考的上游项目
+
+**[video-watch-plus](https://github.com/xinhailaopo/video-watch-plus)**
+
+- 用途：本技能的视频量测、图版生成、裁切读字等底层能力全部来自该项目
+- 许可：MIT
+- 上游版权：Copyright (c) 2026 CFITSec
+- 分发方式：**不在本仓库内分发**，由 `install.ps1` 从上游仓库克隆
+
+本仓库只包含「选择看什么、什么时候看、以什么为准」的上层工作流，以及三个自研脚本
+（`asr_probe.py`、`doctor.py`、`docx_helpers.py`）。
+
+## 使用到的第三方组件
+
+| 组件 | 许可 | 用途 |
+|---|---|---|
+| FFmpeg（BtbN 构建） | LGPL/GPL | 抽帧、场景检测、裁切 |
+| ImageMagick | ImageMagick License | 图版拼接 |
+| faster-whisper | MIT | 语音识别 |
+| Silero VAD（faster-whisper 内置） | MIT | 语音闸门 |
+| python-docx | MIT | 生成 Word |
+| yt-dlp | Unlicense | 下载视频 |
+
+以上组件均由使用者在本地安装，不随本仓库分发。
