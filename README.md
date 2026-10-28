@@ -6,7 +6,7 @@
 
 使用方法：输入B 站视频链接或本地视频地址，DSH会按工作流，抓帧（截图），音频转文字字幕，读画面字幕校准，判断视频类型，输出带编号表图的视频总结报告。
 
-> 底层依赖 video-watch-plus（https://github.com/xinhailaopo/video-watch-plus）  （MIT，ffmpeg 量测与图版工具）——本仓库增加了我设计的工作流，规范DSH「什么时候抓帧、字幕校准方法、分档生成总结规范」。
+> 底层依赖 video-watch-plus（https://github.com/xinhailaopo/video-watch-plus    ）  （MIT，ffmpeg 量测与图版工具）——本仓库增加了我设计的工作流，规范DSH「什么时候抓帧、字幕校准方法、分档生成总结规范」。
 
 ## 它能做什么
 
