@@ -43,7 +43,7 @@
 
 ```powershell
 # 1. 克隆到 DSH 的技能目录（仓库根目录就是技能根目录）
-git clone https://github.com/<你的用户名>/dsh-video-understanding "$env:USERPROFILE\.dsh\skills\video-understanding"
+git clone https://github.com/wonder-39/dsh-video-understanding "$env:USERPROFILE\.dsh\skills\video-understanding"
 
 # 2. 一键安装（下载 ffmpeg + ImageMagick、建 venv 装依赖、写配置、自检）
 powershell -ExecutionPolicy Bypass -File "$env:USERPROFILE\.dsh\skills\video-understanding\install.ps1"
